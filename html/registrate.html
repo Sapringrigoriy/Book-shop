@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book island</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header__logo_and_h1">
+                    <img src="../img/logo.png" alt="" class="logo">
+                    <h1>Book island</h1>
+                </div>
+                <div class="header__nav">
+                <h2>Все ссылки</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../index.html">О нас</a>
+                        </li>
+                        <li>
+                            <a href="./products.html">Товар</a>
+                        </li>
+                        <li>
+                            <a href="./registrate.html">Зарегистрироваться</a>
+                        </li>
+                        <li>
+                            <a href="#footer__contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        
+    </div>
+        <div class="librari_image">
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="registration">
+            <div class="container">
+                <form action="action_page.php">
+                    <div class="container">
+                        <h2>Регистрация</h2>
+                        <p>Пожалуйста, заполните анкету.</p>
+                        <hr>
+                    
+                        <p><label for="email"><b>Почта</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required></p>
+                    
+                        <p><label for="psw"><b>Пароль</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required></p>
+                    
+                        <p><label for="psw-repeat"><b>Повторите пароль</b></label></p>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                        <hr>
+                        <button type="submit" class="registerbtn">Регистрация</button>
+                        </div>
+                        <div class="container_signin">
+                        <p>У вас уже есть аккаунт? <a href="#"><div class="click_on">Нажмите сюда</div></a></p>
+                    </div>
+                </form>
+            </div>   
+        </section>    
+    </main>
+    <footer>
+        <hr>
+        <div class="container">
+            <h2>Также вы можете нас найти:</h2> 
+            <div class="footer__abaut_us" id="footer__contacts">
+                <a href=""><img src="../img/vk.png" alt=""></a>
+                <a href=""><img src="../img/facebook.png" alt=""></a>
+                <a href=""><img src="../img/youtube.png" alt=""></a>
+                <a href=""><img src="../img/insta.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

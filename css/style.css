@@ -1,0 +1,181 @@
+body{
+       background-color: lightseagreen;
+}
+header{
+ 
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin: 2px 15px;
+}
+.header__logo_and_h1{
+    display: flex;
+    height: 200px;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+   
+}
+nav{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 1px;
+}
+a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+} 
+.librari_image{
+    height: 200px;
+    background-image: url(../img/library.jpg);
+    background-repeat: no-repeat;
+}
+main{
+    background-color: lightseagreen;
+}
+.section__our{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.section__about_us{
+    font-size: 200%;
+}
+.section__info{
+    font-size: 150%;
+}
+.section__love{
+    background-image: url(../img/books2.jpg);
+    background-size: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a{
+    font-size: 20px;
+}
+footer{
+    color: white;
+    justify-content: left;
+}
+.container{
+    margin: 0% auto;
+}
+.section__quote-select_a_book{
+    text-align: center;
+    color: white;
+}
+.content-random{
+    background-color: darkcyan;
+    border-radius: 25px 0px 25px 0px;
+}
+.section__quote-begin{
+    color: white;
+}
+.cite{
+    color: white;
+}
+.section__quote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sectuion__our_products{
+    text-align: center;
+}
+.section__image-uindermir_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__image-star_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__illusion_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__love_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__group-one{
+    justify-content: center;
+    display: flex;
+    padding: 50px 50px;
+}
+.section__group-two{
+    justify-content: center;
+    display: flex;
+    padding: 50px 50px;
+}
+.section__history_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__loneliness_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__red_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__short_story_book{ 
+    height: 300px;
+    padding: 10px;
+}
+.section__group-three{
+    justify-content: center;
+    display: flex;
+    padding: 50px 50px;
+}
+.section__short_super_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__marriage_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__goast_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__killed_book{
+    height: 300px;
+    padding: 10px;
+}
+.section__group-four{
+    justify-content: center;
+    display: flex;
+    padding: 50px 50px;
+}
+.section__Shantaram_book{
+    height: 300px;
+    padding: 10px;
+}
+.registration{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.click_on{
+    text-decoration: underline;
+}
+
